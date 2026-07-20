@@ -4,12 +4,11 @@ console.log("Buổi 16");
 
 //cú pháp Function Expression
 
-let tinhTong = function (a, b){
+let tinhTong = function (a, b) {
 console.log("======Tinh Tong======");
 let tong = a + b;
 console.log(tong);
 return tong;
-
 };
 
 let tong = tinhTong(10, 20);
@@ -69,7 +68,7 @@ console.log("🧡 Kiem tra Tuoi", kiemTraDuTuoi_v2(13));
  let xinChao = (name = "bạn") => {
     console.log("🧡  Xin Chào", name);
  }
-xinChao("Saras là Ngyeu của tôi!")
+xinChao("S là Ngyeu của tôi!")
 xinChao() // nếu quên truyền gtri thì sẽ ra mặc  định là bạn
 
 // ham giam gia (giaTien, phan trăm giam)

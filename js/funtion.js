@@ -50,7 +50,7 @@ xinChao(7.0)
 xinChao(true)
 
 function dienTichHCN(a ,b){
-    console.log('Diện tích HCN với chiều độ dài các cạnh lần lượt là ${a}, ${b} là: ', a*b)
+    console.log(`Diện tích HCN với chiều độ dài các cạnh lần lượt là ${a}, ${b} là: `, a*b)
 }
 
 dienTichHCN(3 ,5)
